@@ -1,0 +1,10 @@
+body {
+    background-color:grey;  
+}
+
+article {
+    background-color: whitesmoke; 
+    border-radius:5%; 
+    padding: 3%; 
+    margin: 2%; 
+}

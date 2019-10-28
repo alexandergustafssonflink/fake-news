@@ -1,4 +1,6 @@
-<img src="http://giphygifs.s3.amazonaws.com/media/12OOqKXAALhAkM/giphy.gif">
+# Fake News Project
+
+<img src="http://giphygifs.s3.amazonaws.com/media/12OOqKXAALhAkM/giphy.gif" width="100%"> 
 
 ## Installing
 

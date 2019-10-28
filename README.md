@@ -1,4 +1,4 @@
-<img src="https://giphy.com/gifs/12OOqKXAALhAkM/html5">
+<img src="http://giphygifs.s3.amazonaws.com/media/12OOqKXAALhAkM/giphy.gif">
 
 ## Installing
 

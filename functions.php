@@ -9,6 +9,8 @@ declare(strict_types=1);
  * @param string $authors
  * @return string
  */
+
+
 function getAuthor(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
@@ -18,18 +20,18 @@ function getAuthor(int $authorId, array $authors): string
     }
 };
 
-/**
- * 
- */
 
 function getAuthorPic(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
         if ($author['id'] === $authorId) {
-            return $author['img'];
+            return $author['image'];
         }
     }
 };
+
+
+
 function getAuthorMail(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
@@ -39,8 +41,14 @@ function getAuthorMail(int $authorId, array $authors): string
     }
 };
 
-// nkodadaa
 
+/**
+ * Undocumented function
+ *
+ * @param [type] $a
+ * @param [type] $b
+ * @return void
+ */
 function sortFunction($a, $b)
 {
     return strtotime($b['published']) <=> strtotime($a['published']);

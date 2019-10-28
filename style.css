@@ -5,15 +5,16 @@ body {
     text-decoration-color: #13161B;
 }
 
-.navButtons {
-    width: 300px; 
-}
-
 
 nav {
     background-color: white; 
     display: flex; 
     justify-content: center;
+}
+
+
+.navButtons {
+    width: 300px; 
 }
 
 

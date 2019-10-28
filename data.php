@@ -9,35 +9,35 @@ $authors = [
         'id' => 1,
         'name' => 'Conny Mejsel',
         'email' => 'Conny.Mejsel@dailyfejk.se',
-        'img' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gbgwrestling.com%2Fwp-content%2Fuploads%2F2016%2F06%2FConny.jpg&f=1&nofb=1'
+        'image' => 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gbgwrestling.com%2Fwp-content%2Fuploads%2F2016%2F06%2FConny.jpg&f=1&nofb=1'
     ],
 
     [
         'id' => 2,
         'name' => 'Stefan Ingves',
         'email' => 'Stefan.Ingves@dailyfejk.se',
-        'img' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdefria.se%2Fwp-content%2Fuploads%2F2019%2F05%2FStefan-Ingves-guldt%25C3%25A4nder-wide.jpg&f=1&nofb=1'
+        'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdefria.se%2Fwp-content%2Fuploads%2F2019%2F05%2FStefan-Ingves-guldt%25C3%25A4nder-wide.jpg&f=1&nofb=1'
     ],
 
     [
         'id' => 3,
         'name' => 'Lasse Kronér',
         'email' => 'Lasse.Kroner@dailyfejk.se',
-        'img' => 'https://z.cdn-expressen.se/images/47/96/4796c4d19dcd03590fd198425552bcdf/680.jpg'
+        'image' => 'https://z.cdn-expressen.se/images/47/96/4796c4d19dcd03590fd198425552bcdf/680.jpg'
     ],
 
     [
         'id' => 4,
         'name' => 'Miss Marple',
         'email' => 'Miss.Marple@dailyfejk.se',
-        'img' => 'https://iwatchstuff.com/2015/10/07/miss-marple.jpg'
+        'image' => 'https://iwatchstuff.com/2015/10/07/miss-marple.jpg'
     ],
 
     [
         'id' => 5,
         'name' => 'Batman',
         'email' => 'Batman@dailyfejk.se',
-        'img' => 'https://www.pngkey.com/png/detail/17-179316_pix-funny-pictures-batman-funny-face-png.png'
+        'image' => 'https://www.pngkey.com/png/detail/17-179316_pix-funny-pictures-batman-funny-face-png.png'
     ]
 ];
 

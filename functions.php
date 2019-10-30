@@ -9,8 +9,6 @@ declare(strict_types=1);
  * @param string $authors
  * @return string
  */
-
-
 function getAuthor(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
@@ -20,7 +18,13 @@ function getAuthor(int $authorId, array $authors): string
     }
 };
 
-
+/**
+ * getAuthorPic checks if ID in the array named author is identical to to authorID in array posts. If so, it returns image from array named author. 
+ *
+ * @param integer $authorId
+ * @param array $authors
+ * @return string
+ */
 function getAuthorPic(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
@@ -31,7 +35,13 @@ function getAuthorPic(int $authorId, array $authors): string
 };
 
 
-
+/**
+ * * getAuthorMail checks if ID in the array named author is identical to to authorID in array posts. If so, it returns email from array named author. 
+ *
+ * @param integer $authorId
+ * @param array $authors
+ * @return string
+ */
 function getAuthorMail(int $authorId, array $authors): string
 {
     foreach ($authors as $author) {
@@ -43,11 +53,11 @@ function getAuthorMail(int $authorId, array $authors): string
 
 
 /**
- * Undocumented function
+ * Sorts array by date using value in "published"
  *
- * @param [type] $a
- * @param [type] $b
- * @return void
+ * @param integer $a
+ * @param integer $b
+ * @return mixed
  */
 function sortFunction($a, $b)
 {

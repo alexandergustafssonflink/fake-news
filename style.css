@@ -5,6 +5,7 @@ body {
     text-decoration-color: #13161B;
 }
 
+/* This part considers the header of the site and includes nav-bar and logo */
 
 nav {
     background-color: white; 
@@ -12,17 +13,25 @@ nav {
     justify-content: center;
 }
 
-
-.navButtons {
-    width: 300px; 
+.logo {
+    height: 80px; 
+    width: auto; 
 }
 
+/* This part considers the article of the site. */
 
 article {
     background-color: whitesmoke; 
-    border-radius:5%; 
-    padding: 3%; 
-    margin: 2%; 
+    border-radius:20px; 
+    padding: 60px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.publishDate {
+    font-style: italic;
 }
 
 .title {
@@ -31,23 +40,20 @@ article {
     font-family: 'Special Elite', cursive;
 }
 
-.articlePic {
-    width: 30%; 
-    position: center;
-}
+/* This part considers the footnote-part of the article and includes author, author-info and like-button. */
 
 .footnote {
     display: flex; 
     align-items: center; 
     border-top: dotted; 
     border-color: lightgray; 
-    padding-top: 1%; 
+    padding-top: 20px; 
 
 }
 
 .authorInfo {
     align-self: center;
-    margin-left: 1%;
+    margin-left: 20px;
  
 }
 
@@ -60,17 +66,55 @@ article {
     text-decoration: none;
 }
 
-.published {
-    font-style: italic;
+.thumbsUp {
+    width: 30px; 
 }
 
 a {
     color: inherit; 
 }
 
-h1 {
-    font-family: 'Special Elite', cursive;
+
+/* This is the media query section where I determine properties depending on size of the users desktop */
+
+@media only screen and (max-width: 600px) {
+
+    article {
+    margin-left: 5px; 
+    margin-right: 5px; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    padding: 15px; 
+    }   
+    .logo {
+        height: 60px; 
+        width: auto; 
+    }
+
+    body {
+        font-size: 90%; 
+    }
+   
 }
-.thumbsUp {
-    width: 50px; 
-}
+
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+    article {
+        margin-left: 50px; 
+        margin-right: 50px; 
+        margin-top: 25px;
+        margin-bottom: 25px; 
+        padding: 30px; 
+        }   
+       
+    }
+
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
+    article {
+        margin-left: 30px; 
+        margin-right: 30px; 
+        margin-top: 25px;
+        margin-bottom: 25px; 
+        padding: 30px; 
+            }   
+           
+        }

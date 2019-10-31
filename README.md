@@ -21,7 +21,7 @@ You are most welcome to clone or fork, but since this a school project I'd like 
 
 Alexander Gustafsson Flink
 
-* **Alexander Gustafsson Flink** - *Initial work* - [Alexander](https://github.com/alexandergustafssonflink/)
+* **Alexander Gustafsson Flink** - *Initial work* - [Alexander](https://alexandergustafssonflink.github.io/)
 
 ## Testers
 * Mikaela Lundsgård

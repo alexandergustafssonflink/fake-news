@@ -21,6 +21,11 @@ You are most welcome to clone or fork, but since this a school project I'd like 
 
 Alexander Gustafsson Flink
 
+## Testers
+
+Mikaela Lundsgård
+Victor Ljungblad
+
 * **Alexander Gustafsson Flink** - *Initial work* - [Alexander](alexandergustafssonflink.github.io)
 
 ## License

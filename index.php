@@ -20,7 +20,7 @@ usort($posts, "sortFunction");
                     <p><?php echo $post['content']; ?> </p>
                     <p><img class="thumbsUp" src="thumbs.png"> <?php echo $post['likes']; ?> people has liked this post. </p>
                     <div class="footnote">
-                        <img class="authorPic" src="<?php echo getAuthorPic($post['authorId'], $authors) ?> ">
+                        <img class="authorPic" loading="lazy" src="<?php echo getAuthorPic($post['authorId'], $authors) ?> ">
                         <div class="authorInfo">
                             <div class="authorName"> <?php echo getAuthor($post['authorId'], $authors)  ?></div>
                             <div class="authorMail"><a href="mailto:<?php echo getAuthorMail($post['authorId'], $authors)  ?>"><?php echo getAuthorMail($post['authorId'], $authors)  ?></a> </div>
